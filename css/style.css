@@ -1,0 +1,139 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #2C2B3D;
+
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 1083px;
+	height: 30px;
+	margin-top: 71px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.navbar span{
+	color: #fff;
+	text-align: center;
+	font-family: 'JetBrains Mono', monospace;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 28px
+}
+.navbar img{
+	width: 13px;
+	height: 16px;
+}
+ul {
+	display: flex;
+	list-style: none;
+	gap: 64px;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	text-align: center;
+	font-family: 'JetBrains Mono', monospace;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 28px;
+}
+ul li a:hover{
+	font-weight: bolder;
+}
+main {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin: 112px auto;
+	width: 1092px;
+	gap: 82px;
+}
+main img{
+	max-height: 100%;
+	max-width: 100%;
+}
+section h1{
+	color: #FFF;
+	text-align: center;
+	font-family: 'JetBrains Mono', monospace;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 40px;
+}
+section h1 span{
+	color: #00BFA6;
+	text-align: center;
+	font-family: 'JetBrains Mono', monospace;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 40px
+}
+section{
+	color: #C2C2C2;
+	text-align: center;
+	font-family: Open Sans;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 28px;
+}
+section p{
+	width: 604px;
+}
+section p span{
+	color: #00BFA6;
+	font-family: Open Sans;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 28px;
+}
+#line{
+	width: 568px;
+	height: 0;
+	border: 1px solid #00BFA6;
+	margin-top: 156PX;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 27px;
+}
+footer{
+	display: block;
+	text-decoration: none;
+	color: #FFF;
+	text-align: center;
+	font-family: JetBrains Mono;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 28px;
+	margin: auto;
+
+}
+footer a{
+	text-decoration: none;
+	color: #FFF;
+	text-align: center;
+	font-family: JetBrains Mono;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 28px;
+}
+
+#padlockfooter{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	width: 51px;
+	height: 62px;
+}
